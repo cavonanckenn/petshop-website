@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet&Cia</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pet&Cia</h1>
+        <button><a href="#consult">agende sua consulta</a></button>
+        <button><a href="forms.html">trabalhe conosco</a></button>
+        <button><a href="login.html">log-in</a></button>
+        <button><a href="signin.html">sign-in</a></button>
+    </header>
+    <hr>
+    <!-- WEBSITES MAIN STARTS HERE -->
+
+    <main>
+
+        <h2>Quem somos nós:</h2>
+
+
+        <h3>História da pet&cia</h3>
+        <p>
+            A Pet&Cia nasceu do amor por animais e da vontade de criar um espaço onde pets e tutores se sintam
+            acolhidos. Desde o início, nossa missão é oferecer cuidado, carinho e qualidade em cada serviço prestado.
+            Com o tempo, nos tornamos referência no bairro por nossa dedicação e respeito aos bichinhos.</p>
+
+        <center>
+            <img src="https://www.gesund-ins-leben.de/fileadmin/resources/import/f/felltiere_980x430_rdax_720x316_80.jpg"
+                alt="cachorro e gato" width="300px">
+        </center>
+
+
+
+        <h3>Nossa missão com os pets</h3>
+        <p>Acreditamos que todo pet merece atenção especial. Por isso, trabalhamos para proporcionar bem-estar, saúde e
+            momentos felizes para os animais e seus donos. Na Pata & Cia, cada patinha conta!</p>
+
+        <center>
+            <img src="https://transportedemascotas.net/wp-content/uploads/2019/08/Seur-Mascotas.jpg" width="300px"
+                alt="cachorro, gato e hamister">
+        </center>
+
+        <h3>Equipe apaixonada por animais</h3>
+        <p>
+            Nossa equipe é formada por profissionais que amam o que fazem. Veterinários, tosadores e atendentes
+            treinados para oferecer não só um serviço de qualidade, mas também um ambiente cheio de carinho, respeito e
+            confiança.</p>
+
+        <center>
+            <img src="https://paradepets.com/.image/t_share/MTkxMzY1Nzg4Njc5NDE1Mzk0/pet-expo-2019-ftr.jpg"
+                width="300px" alt="cachorro, gato e coelho">
+        </center>
+    </main>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- AGENDE SUA CONSULTA -->
+
+    <section id="consult">
+        <h2>Agende sua consulta!</h2>
+        <p>Preencha o formulário a seguir para agendar sua consulta! Não se esqueça de preencher todos os campos
+            antes de enviar.</p>
+
+            <fieldset><br>
+                <legend>Dados do Dono e Pet</legend>
+
+        <form action="/dogs">
+
+            <label for="tutor">Nome completo:</label>
+            <input type="text" id="tutor" required><br>
+            <br>
+
+            <label for="petname">Nome do Pet:</label>
+            <input type="text" id="petname" minlength="3" maxlength="50" required><br>
+            <br>
+
+            <label for="petkind">Tipo do Pet:</label>
+            <select id="petkind" required>
+                <option value=""></option>
+                <option value="dog">Cachorro</option>
+                <option value="cat">Gato</option>
+                <option value="pap">Papagaio</option>
+                <option value="ham">Hamister</option>
+                <option value="bun">Coelho</option>
+                <option value="bird">Passáro</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="petage">Idade do Pet:</label>
+            <input type="number" id="petage" min="1" max="100" required>
+            <br>
+
+
+            <label for="kind"></label>
+            <p></p>
+
+            <label for="date"> Data e Hora:</label>
+            <input type="datetime-local" id="date" required>
+
+            <p></p>
+
+            <button>Enviar</button><br>
+            
+        </form>
+    </fieldset>
+        <br>
+    </section>
+
+    <hr>
+
+    <center>
+        <footer>
+            <p>Copyright &copy;2025 All rights reserved to the autor of the project</p>
+        </footer>
+    </center>
+
+</body>
+
+</html>

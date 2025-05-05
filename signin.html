@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+
+    <nav>
+        <header>
+            <h1>Sign-in</h1>
+            <button><a href="index.html">menu</a></button>
+        </header>
+    </nav>
+
+    <hr>
+
+
+    </main>
+    <p>Preencha o formulário para conseguir acessar nosso website.</p>
+<br>
+
+
+    <form action="/somedatabase">
+
+        <fieldset><br>
+            <legend>Informações Pessoais</legend>
+            <label for="name">Nome completo: </label>
+            <input id="name" type="text" placeholder="full name" required><br>
+            <br>
+
+            <label for="date">Data de aniversário: </label>
+            <input id="date" type="date" id="date" required><br>
+            <p></p>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero" required>
+                <option value="">Selecione</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select><br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+            <label for="user">Nome de usuário:</label>
+            <input id="user" type="text" placeholder="username" minlength="5" required><br>
+            <br>
+
+            <label for="password">Enter your password:</label>
+            <input id="password" type="password" placeholder="password" minlength="6" maxlength="12" required><br>
+            <br>
+        </fieldset><br>
+
+        <button>Enviar</button>
+
+    </form>
+    <main>
+        <br>
+        <hr>
+
+        <center>
+            <footer>
+                <p>Copyright &copy;2025 All rights reserved to the autor of the project</p>
+            </footer>
+        </center>
+
+
+
+</body>
+
+</html>
